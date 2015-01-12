@@ -23,7 +23,7 @@ import lib.core.ui.dnd.Draggable;
  * 
 * Возможность анимированной прокрутки.
 */
-[Event (name="scrollPositionChanged", type="com.kamagames.core.ui.controls.scroll.ScrollBar")] 
+[Event (name="scrollPositionChanged", type="lib.core.ui.scroll.ScrollBar")] 
 public class ScrollBarToKill extends Sprite
 {
 	public static var SCROLL_POSITION_CHANGED:String = "scrollPositionChanged";

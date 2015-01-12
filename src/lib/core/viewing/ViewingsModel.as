@@ -5,9 +5,9 @@ import lib.core.util.log.Logger;
 import flash.events.Event;
 import flash.events.EventDispatcher;
 
-[Event (name="addView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
-[Event (name="closeView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
-[Event (name="updateView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
+[Event (name="addView", type="lib.core.viewing.ViewingModelEvent")] 
+[Event (name="closeView", type="lib.core.viewing.ViewingModelEvent")] 
+[Event (name="updateView", type="lib.core.viewing.ViewingModelEvent")] 
 
 /**
  * Модель визуальных элементов. Основной функционал - разные политики показа view, см. комментарии и примеры к каждой из политик 

@@ -2,19 +2,8 @@
 {
 import flash.events.Event;
 
-/**
- */
-/*
- *
-[Event (name="data", 		type="com.kamagames.core.service.transport.TransportEvent")]
-[Event (name="connect", 	type="com.kamagames.core.service.transport.TransportEvent")]
-[Event (name="disconnect", 	type="com.kamagames.core.service.transport.TransportEvent")]
-[Event (name="error", 		type="com.kamagames.core.service.transport.TransportEvent")]
-
- */
 public class TransportEvent extends Event
 {
-
 	/**
 	 * данные
 	 */
@@ -44,7 +33,5 @@ public class TransportEvent extends Event
 	{
 		return new TransportEvent(type, data, bubbles, cancelable);
 	}
-
 }
-
 }

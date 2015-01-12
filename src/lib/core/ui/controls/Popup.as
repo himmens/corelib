@@ -23,8 +23,8 @@ import flash.text.TextFormatAlign;
 import flash.ui.Keyboard;
 
 [Event(name="popupOk", type="lib.core.ui.controls.PopupEvent")]
-[Event(name="popupCancel", type="com.kamagames.ui.view.controls.PopupEvent")]
-[Event(name="popupHide", type="com.kamagames.ui.view.controls.PopupEvent")]
+[Event(name="popupCancel", type="lib.core.ui.controls.PopupEvent")]
+[Event(name="popupHide", type="lib.core.ui.controls.PopupEvent")]
 
 /**
  * Popup.

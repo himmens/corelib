@@ -9,7 +9,6 @@ import flash.events.MouseEvent;
 [Event (name="select", type="flash.events.Event")]
 public class ToggleGroup extends EventDispatcher
 {
-	//массив com.kamagames.core.ui.controls.ISelectable
 	//используем Dictionary для мягкой связки на объекты
 	private var buttons:Array = [];
 

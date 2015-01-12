@@ -2,14 +2,6 @@ package lib.core.data
 {
 import flash.events.Event;
 
-/*
- * 
-[Event(name="remove", type="com.kamagames.core.model.ItemSetEvent")]
-[Event(name="add", type="com.kamagames.core.model.ItemSetEvent")]
-[Event(name="update", type="com.kamagames.core.model.ItemSetEvent")]
-
-
-*/
 /**
  * events
  */

@@ -10,7 +10,7 @@ public interface IProtocol
 	 * Считывает пакет данных от транспорта. Данные можно получить по геттеру readData
 	 * @param pack пакет данных (например ByteArray от Socket или URLLoader)
 	 *
-	 * @return cчитанные данные, @see com.kamagames.core.service.protocol.ProtocolData
+	 * @return cчитанные данные, @see lib.core.service.protocol.ProtocolData
 	 *
 	 */
 	function readObject(data:Object):ProtocolData;

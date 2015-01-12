@@ -2,21 +2,8 @@ package lib.core.service
 {
 import flash.events.Event;
 
-/**
- */
-/*
- *
-[Event (name="command", 	type="com.kamagames.core.service.ServiceEvent")]
-[Event (name="connect", 	type="com.kamagames.core.service.ServiceEvent")]
-[Event (name="disconnect", 	type="com.kamagames.core.service.ServiceEvent")]
-[Event (name="error", 		type="com.kamagames.core.service.ServiceEvent")]
-
- */
-
-// Наследуемся от SocketServiceEvent для обратной совместимости
 public class ServiceEvent extends Event
 {
-
 	/**
 	 * данные сокета
 	 */
@@ -46,7 +33,5 @@ public class ServiceEvent extends Event
 	{
 		return new ServiceEvent(type, data);
 	}
-
 }
-
 }

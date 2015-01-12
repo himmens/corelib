@@ -2,12 +2,6 @@ package lib.core.viewing
 {
 import flash.events.Event;
 
-/*
-[Event (name="addView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
-[Event (name="closeView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
-[Event (name="updateView", type="com.kamagames.core.model.navigator.NavigatorModelEvent")] 
-
-*/
 public class ViewingsModelEvent extends Event
 {
 	/**
